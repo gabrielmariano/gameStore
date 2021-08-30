@@ -16,10 +16,22 @@ export const Container = styled.header`
   }
 `;
 
+export const Title = styled.strong`
+  color: white;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+  a {
+    text-decoration: none;
+  }
+`;
+
 export const Cart = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-right: -1.8rem;
 
   div {
     text-align: right;
