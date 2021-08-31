@@ -78,6 +78,6 @@ const Home = (): JSX.Element => {
       ))}
     </ProductList>
   );
-};
+}};
 
 export default Home;
